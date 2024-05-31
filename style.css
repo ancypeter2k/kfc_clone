@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+    height: 50px;
+    margin-right: 1.2%;
+    font-weight: 500;
+}
+
+.Loc-img {
+    height: 18px;
+    width: 13px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+.Loc-Text {
+    font-size: 14px;
+    color: #202124;
+    height: 32px;
+    padding-top: 5px;
+    line-height: 24px;
+}
+
+.button {
+    border-radius: 1.4em;
+    height: 32px;
+    font-size: 12px;
+    padding: 5px 14px;
+    margin-left: 27px;
+    color: #fff;
+    background-color: #202124;
+    border: 1px solid #202124;
+}
+
+.Loc-divider {
+    margin: 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    height: 80px;
+    margin-right: 1.2%;
+    font-weight: 500;
+    background: #fff;
+}
+
+.logo-img {
+    width: 72px;
+    height: 23px;
+    margin: 1% 2.8%;
+}
+
+.Menu {
+    margin: 0% 2.8%;
+}
+
+.Deals {
+    margin: 0.8%;
+}
+
+.Sign-img {
+    width: 18px;
+    height: 18px;
+    padding-left: 57%;
+}
+
+.Sign-in {
+    margin: 0.8%;
+    padding-right: 2%;
+    border-right: 1px solid #dbdbdb;
+}
+
+.basket-blank {
+    background-image: url(Thumbnailes/KFC-buc.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 52px;
+    width: 39px;
+    border: 0;
+}
+
+.nav2 {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 30%;
+}
+
+.Startbutton {
+    border-radius: 1.4em;
+    height: 36px;
+    padding: 6px 50px;
+    margin-right: 30%;
+    background-color: #e4002b;
+    color: #fff;
+    border: 1px solid #e4002b;
+    margin-left: 1%;
+}
+
+.Advertisement {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Menu-container {
+    margin-left: 305px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.container-title {
+    font-size: 38px;
+    letter-spacing: -4px;
+    color: rgb(32, 33, 36);
+    margin-top: 100px;
+    margin-bottom: 8%;
+}
+
+.line {
+    margin-top: -3px;
+    margin-right: 3%;
+    border-top: 2px solid rgb(227, 227, 227);
+    flex: 1 1 0%;
+    margin-left: 4%;
+}
+
+.container1 {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #f8f7f5;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 38.87vw;
+    width: 80.5%;
+    margin-left: 18%;
+    margin-top: 0%;
+}
+
+.container1 img {
+    width: 309.04px;
+    height: 219.16px;
+}
+
+.menu-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #202124;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.menu-cards {
+    width: 19.5vw;
+    height: 17.5vw;
+    box-sizing: border-box;
+    color: rgb(32, 33, 36);
+    background: #f8f7f5;
+    cursor: pointer;
+    display: inline-grid;
+    margin: 2.85px;
+    position: relative;
+    text-size-adjust: 100%;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.offer-container {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    box-sizing: border-box;
+}
+
+.offer-Icon {
+    justify-content: baseline;
+}
+
+.offer-Icon1 {
+    margin-left: 15%;
+    width: 16.4103px;
+    height: 41.0256px;
+    background-color: #e4002b;
+}
+
+.offer-Icon2 {
+    margin-left: 17%;
+    margin-top: -2.4%;
+    width: 16.4103px;
+    height: 41.0256px;
+    background-color: #e4002b;
+}
+
+.offer-Icon3 {
+    margin-left: 19%;
+    margin-top: -2.4%;
+    width: 16.4103px;
+    height: 41.0256px;
+    background-color: #e4002b;
+}
+
+.offersCard-container {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.offersContainer-header {
+    margin-left: -6%;
+}
+
+.offersView {
+    padding-left: 106%;
+    width: 228%;
+    font-weight: 500;
+}
+
+.OfferCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 238px;
+    margin-top: 2.5%;
+    box-sizing: border-box;
+}
+
+.offersCard-list {
+    background-color: #fff;
+    color: #000;
+    width: 365px;
+    height: 353px;
+    border-radius: 1em;
+    margin: 10px; /* Ensure spacing between cards */
+}
+
+.offers-cardimg {
+    width: 100%;
+    height: 58%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.OfferCard h1 {
+    color: #e4002b;
+    text-transform: uppercase;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.offersCard-list p {
+    width: 96%;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+}
+
+.offersView-details {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+    color: #494949;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-button {
+    border-radius: 1.4em;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 14px;
+    margin-left: 20%;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.footer-container {
+    background-color: #000;
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 6%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-logo {
+    padding-left: 1%;
+}
+
+.footer-items {
+    display: flex;
+    width: 100%;
+    padding-left: 6%;
+}
+
+.Footer-ul {
+    background-color: #111;
+    padding-right: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2%;
+}
+
+.Footer-ul ul {
+    list-style: none;
+}
+
+.Footer-ul li {
+    margin: 10px 0;
+}
+
+.Footer-ul a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.Find{
+    background-color: #111;
+    padding-left: 68px;
+    width: 23%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Find img{
+    height: 18px;
+    width: 13px;
+}
+
+.Find a{
+    color:#fff;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.Googleplay{
+    padding-left: 8%;
+}
+
+.Googleplay img{
+    width: 195%;
+    height: 28%;
+}
+
+.Appstore{
+    padding-left: 6%;
+}
+
+.Appstore img{
+    width: 195%;
+    height: 28%;
+}
+
+.footer-container1 {
+    background-color: #000;
+    width: 90%;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 13.6px;
+}
+
+.footer-container2{
+    background-color: #000;
+    width: 90%;
+    margin-left: 2%;
+    font-size: 14px;
+    display: flex;
+    justify-content: baseline;
+    padding-block-end: 20px;
+}
+
+.footer-container2 img{
+    padding: 2px;
+}
+    

@@ -10,7 +10,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 9px 0;
+    margin: 9px 0;
     height: 50px;
     margin-right: 1.2%;
     font-weight: 500;
@@ -27,7 +27,7 @@
     font-size: 14px;
     color: #202124;
     height: 32px;
-    padding-top: 5px;
+    margin-top: 5px;
     line-height: 24px;
 }
 
@@ -35,8 +35,8 @@
     border-radius: 1.4em;
     height: 32px;
     font-size: 12px;
-    padding: 5px 14px;
-    margin-left: 27px;
+    margin: 10px;
+    width: 106px;
     color: #fff;
     background-color: #202124;
     border: 1px solid #202124;
@@ -50,7 +50,7 @@
 .nav1 {
     display: flex;
     align-items: center;
-    padding: 9px;
+    margin: 9px;
     height: 80px;
     margin-right: 1.2%;
     font-weight: 500;
@@ -74,17 +74,17 @@
 .Sign-img {
     width: 18px;
     height: 18px;
-    padding-left: 57%;
+    margin-left: 57%;
 }
 
 .Sign-in {
-    margin: 0.8%;
-    padding-right: 2%;
+    margin: 1%;
+    width: 70px;
     border-right: 1px solid #dbdbdb;
 }
 
 .basket-blank {
-    background-image: url(KFC-buc.png);
+    background-image: url(Thumbnailes/KFC-buc.png);
     background-position: bottom;
     background-size: cover;
     height: 52px;
@@ -107,14 +107,14 @@
     letter-spacing: -0.6px;
     text-transform: uppercase;
     color: #fff;
-    margin-left: 30%;
+    margin-left: 0%;
 }
 
 .Startbutton {
     border-radius: 1.4em;
     height: 36px;
-    padding: 6px 50px;
-    margin-right: 30%;
+    margin: 50px;
+    width: 106px;
     background-color: #e4002b;
     color: #fff;
     border: 1px solid #e4002b;
@@ -218,7 +218,7 @@
 
 .offer-Icon2 {
     margin-left: 17%;
-    margin-top: -2.4%;
+    margin-top: -2.7%;
     width: 16.4103px;
     height: 41.0256px;
     background-color: #e4002b;
@@ -226,7 +226,7 @@
 
 .offer-Icon3 {
     margin-left: 19%;
-    margin-top: -2.4%;
+    margin-top: -2.7%;
     width: 16.4103px;
     height: 41.0256px;
     background-color: #e4002b;
@@ -244,7 +244,7 @@
 }
 
 .offersView {
-    padding-left: 106%;
+    margin-left: 106%;
     width: 228%;
     font-weight: 500;
 }
@@ -307,8 +307,9 @@
     height: 34px;
     font-size: 14px;
     font-weight: 500;
-    padding: 3px 14px;
-    margin-left: 20%;
+    margin-top: 5px;
+    margin-left: 18px;
+    width: 106px;
     color: #000;
     background-color: #fff;
     border: 2px solid #000;
@@ -325,18 +326,18 @@
 }
 
 .footer-logo {
-    padding-left: 1%;
+    margin-left: 1%;
 }
 
 .footer-items {
     display: flex;
     width: 100%;
-    padding-left: 6%;
+    margin-left: 6%;
 }
 
 .Footer-ul {
     background-color: #111;
-    padding-right: 20px;
+    margin-right: 20px;
     border-radius: 5px;
     display: inline-block;
     margin: 2%;
@@ -358,7 +359,7 @@
 
 .Find{
     background-color: #111;
-    padding-left: 68px;
+    margin-left: 68px;
     width: 23%;
     border-radius: 5px;
     display: inline-block;
@@ -376,7 +377,7 @@
 }
 
 .Googleplay{
-    padding-left: 8%;
+    margin-left: 8%;
 }
 
 .Googleplay img{
@@ -385,7 +386,7 @@
 }
 
 .Appstore{
-    padding-left: 6%;
+    margin-left: 6%;
 }
 
 .Appstore img{
@@ -394,11 +395,11 @@
 }
 
 .footer-container1 {
-    background-color: #000;
     width: 90%;
     margin-left: 2%;
     color: #fff;
-    font-size: 13.6px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .footer-container2{
@@ -408,10 +409,10 @@
     font-size: 14px;
     display: flex;
     justify-content: baseline;
-    padding-block-end: 20px;
+    margin-block-end: 20px;
 }
 
 .footer-container2 img{
-    padding: 2px;
+    margin: 2px;
 }
     
